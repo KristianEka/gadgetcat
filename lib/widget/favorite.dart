@@ -8,18 +8,18 @@ class FavoriteButton extends StatefulWidget {
 }
 
 class _FavoriteButtonState extends State<FavoriteButton> {
-  bool isFavorite = false;
+  bool _isFavorite = false;
 
   @override
   Widget build(BuildContext context) {
     return CircleAvatar(
       backgroundColor: Colors.white,
       child: IconButton(
-        icon: Icon(isFavorite ? Icons.favorite : Icons.favorite_border),
+        icon: Icon(_isFavorite ? Icons.favorite : Icons.favorite_border),
         color: Colors.red,
         onPressed: () {
           setState(() {
-            isFavorite = !isFavorite;
+            _isFavorite = !_isFavorite;
           });
         },
       ),

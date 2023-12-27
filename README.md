@@ -1,16 +1,16 @@
 # gadgetcat
 
 GadgetCat is an application that displays various exciting gadgets.
+This app made with Flutter.
 
-## Getting Started
+## JSON Data
+Data from: [Dummy JSON](https://dummyjson.com/)
 
-This project is a starting point for a Flutter application.
+## Preview
 
-A few resources to get you started if this is your first Flutter project:
+### Mobile Preview
+![GadetCat Mobile Preview](https://github.com/KristianEka/gadgetcat/assets/69257405/50bf352d-2f41-45f5-986f-d70f5387fa02)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Web Preview
+![GadegtCat Web Preview](https://github.com/KristianEka/gadgetcat/assets/69257405/1cec734e-cd16-446e-b54b-f3f151d1b46b)
